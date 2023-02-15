@@ -40,13 +40,13 @@
 
 # Fifth function
 
-# def creating_new_dict(list_one: list, list_two: list) -> dict:
-#     new_dict = dict(zip(list_one, list_two))
-#     return new_dict
-# list_one = input('input list one (5 items): ').split()
-# list_two = input('input list two: (five items)').split()
+def creating_new_dict(list_one: list, list_two: list) -> dict:
+    new_dict = dict(zip(list_one, list_two))
+    return new_dict
+list_one = input('input list one (5 items): ').split()
+list_two = input('input list two: (five items)').split()
 
-# print(creating_new_dict(list_one, list_two))
+print(creating_new_dict(list_one, list_two))
      
         
 # Create a function that adds a string ending to each member in a list.
