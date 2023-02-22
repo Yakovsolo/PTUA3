@@ -21,19 +21,30 @@
 
 # Second function
 
-from typing import Union
-import math
+# from typing import Union
+# import math
 
-def finding_sqare_root(number: int) -> Union[float, None]:
-    sqare_root = math.sqrt(number)
-    return y 
-try:
-    print(finding_sqare_root(4))
-    print(finding_sqare_root(-4))
+# def finding_sqare_root(number: int) -> Union[float, None]:
+#     sqare_root = math.sqrt(number)
+#     # return y 
+# try:
+#     print(finding_sqare_root(4))
+#     print(finding_sqare_root(-4))
 
-except ValueError:
-        print('Cannot find square root, number must be a positive integer')
+# except ValueError:
+#         print('Cannot find square root, number must be a positive integer')
 
+# Third function
+
+# def sum(numb_1: int, numb_2: int) -> int:
+#     sum = numb_1 + numb_2
+#     return(sum)
+# try:
+#     a = 5
+#     b = 6
+#     print(sum(a, c))    
+# except NameError as e:
+#     print(f'NameError:  {e}')
 
 
 

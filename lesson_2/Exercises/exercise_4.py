@@ -28,5 +28,5 @@ translation_table = {
     "Z":"7_",
     "a": ""
 }
-leet_speek = text.replace_multi("A", "∆")
+leet_speek = ("A", "∆")
 print(leet_speek)

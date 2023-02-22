@@ -33,10 +33,10 @@ from typing import Optional, Union
 
 # physics_is_fun(temp_c= 55.87, pressure_mbar= 26.58, time_utc= 1258955, weight_kg= 458.3)
 
-def divider(number: Union[float, int]) -> Optional[Union[float, int]]:
-    try:
-        return number / 2 if isinstance(number, float) else number // 2
-    except TypeError:
-        print('Wrong type received')
-    except Exception as e:
-        print(f'Error: {e}')
+# def divider(number: Union[float, int]) -> Optional[Union[float, int]]:
+#     try:
+#         return number / 2 if isinstance(number, float) else number // 2
+#     except TypeError:
+#         print('Wrong type received')
+#     except Exception as e:
+#         print(f'Error: {e}')
