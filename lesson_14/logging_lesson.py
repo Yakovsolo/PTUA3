@@ -1,7 +1,14 @@
 import logging
+
 # logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d/%m/%Y %H:%M:%S')
 
-logging.basicConfig(level=logging.DEBUG,filename='data.log', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d/%m/%Y %H:%M:%S')
+logging.basicConfig(
+    level=logging.DEBUG,
+    filename="data.log",
+    filemode="a",
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    datefmt="%d/%m/%Y %H:%M:%S",
+)
 
 
 # logging.debug('This is a debug message')
@@ -10,9 +17,11 @@ logging.basicConfig(level=logging.DEBUG,filename='data.log', filemode='a', forma
 # logging.error('This is an error message')
 # logging.critical('This is a critical message')
 
+
 def add_few_number(a: int, b: int) -> int:
-    logging.debug(f'Receved numbers: a {a} and b: {b}')
+    logging.debug(f"Receved numbers: a {a} and b: {b}")
     return a + b
+
 
 add_few_number(a=6, b=7)
 
@@ -30,11 +39,7 @@ add_few_number(a=6, b=7)
 
 def emergency_stop(is_stop_event: bool) -> None:
     if is_stop_event:
-        logging.critical(f'Had to stop device')
+        logging.critical(f"Had to stop device")
+
 
 emergency_stop(True)
-
-
-
-
-    

@@ -26,7 +26,7 @@
 
 # def finding_sqare_root(number: int) -> Union[float, None]:
 #     sqare_root = math.sqrt(number)
-#     # return y 
+#     # return y
 # try:
 #     print(finding_sqare_root(4))
 #     print(finding_sqare_root(-4))
@@ -42,12 +42,6 @@
 # try:
 #     a = 5
 #     b = 6
-#     print(sum(a, c))    
+#     print(sum(a, c))
 # except NameError as e:
 #     print(f'NameError:  {e}')
-
-
-
-
-
-        

@@ -23,25 +23,32 @@
 
 import logging
 
-logging.basicConfig(level=logging.DEBUG, filename='data.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d/%m/%Y %H:%M:%S')
+logging.basicConfig(
+    level=logging.DEBUG,
+    filename="data.log",
+    filemode="w",
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    datefmt="%d/%m/%Y %H:%M:%S",
+)
+
 
 class Book:
-
     def __init__(self, title: str, author: str):
         self.title = title
         self.author = author
-        logging.info(f'There are book with title {self.title} and author {self.author}')
-    
+        logging.info(f"There are book with title {self.title} and author {self.author}")
+
     def get_title(self):
-        return f'Title: {self.title}'
-    
+        return f"Title: {self.title}"
+
     def get_author(self):
-        return f'Author: {self.author}'
-    
-PP = Book('Pride and Prejudice', 'Jane Austen')
-H = Book('Hamlet', 'Whilliam Shakespeare')
-WP = Book('War and Peace', 'Leo Tolstoy')
-HP = Book('Harry Potter', 'J.K. Rowling')
+        return f"Author: {self.author}"
+
+
+PP = Book("Pride and Prejudice", "Jane Austen")
+H = Book("Hamlet", "Whilliam Shakespeare")
+WP = Book("War and Peace", "Leo Tolstoy")
+HP = Book("Harry Potter", "J.K. Rowling")
 
 print(PP.title)
 print(PP.author)
@@ -54,8 +61,3 @@ print(WP.get_title())
 print(WP.get_author())
 print(HP.get_title())
 print(HP.get_author())
-
-
-
-        
-

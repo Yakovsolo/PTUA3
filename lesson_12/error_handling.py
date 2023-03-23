@@ -1,14 +1,11 @@
 from typing import Optional, Union
 
 
-
-
-
 # try:
 #     my_divided_number = divider('0')
 #     print(my_divided_number)
 #     print(my_divided_number / 0)
- 
+
 
 # except  TypeError:
 #     print("We are f*cked up!")

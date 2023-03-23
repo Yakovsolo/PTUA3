@@ -7,11 +7,10 @@ import calc
 # redult_two = calc.add(a, b)
 
 
-
 # print(result)
 # print(redult_two)
 
-# import sys 
+# import sys
 # print(sys.path)
 
 # help('modules')
