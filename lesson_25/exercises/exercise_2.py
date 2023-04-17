@@ -10,7 +10,9 @@ from typing import Dict
 def get_person_info(info_string: str) -> Dict[str, str]:
     id_parameters_names = ["first_name", "last_name", "id"]
     info_list = info_string.split("0")
+    print(info_list)
     info_list = " ".join(info_list).split()
+    print(info_list)
     person_info = dict(zip(id_parameters_names, info_list))
     return person_info
 
