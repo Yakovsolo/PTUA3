@@ -22,3 +22,4 @@ def second_input_selection() -> int:
         except ValueError:
             print("You have to input numer between 1 and 6!")
             continue
+
