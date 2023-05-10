@@ -3,6 +3,8 @@ import json
 with open("task.json", "r") as file:
     data = json.load(file)
 
+print(data)
+
 # {
 #   "colors": [
 #     {
